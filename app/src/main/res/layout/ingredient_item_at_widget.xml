@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/cardview_light_background">
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingredient_name_at_widget"
+        android:textSize="21sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingredient_quantity_at_widget"
+        android:textSize="17sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingredient_measure_at_widget"
+        android:textSize="17sp"
+        android:gravity="center"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/cardview_light_background">
+    </FrameLayout>
+</LinearLayout>

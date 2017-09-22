@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Baking App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="configure">Configure</string>
+    <string name="no_network">Check your Network Connectivity</string>
+    <string name="no_data_loaded">Can not load data...Please check your internet connection and retry</string>
+    <string name="retry">Retry</string>
+
+    <string name="choose_recipe">Choose your favourite recipe to show its ingredients in widget</string>
+</resources>

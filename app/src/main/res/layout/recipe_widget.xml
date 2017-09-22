@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+    <GridView
+        android:id="@+id/widget_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:numColumns="1"
+        />
+</LinearLayout>
